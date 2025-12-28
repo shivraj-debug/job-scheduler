@@ -1,73 +1,24 @@
-
-# =========================
-# Node.js
-# =========================
-node_modules/
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# =========================
-# Build outputs
-# =========================
-dist/
-build/
-coverage/
+node_modules
+dist
+dist-ssr
+*.local
 
-# =========================
-# Environment variables
-# =========================
-.env
-.env.*
-!.env.example
-
-# =========================
-# TypeScript
-# =========================
-*.tsbuildinfo
-
-# =========================
-# Logs
-# =========================
-logs/
-*.log
-
-# =========================
-# OS / Editor junk
-# =========================
-.DS_Store
-Thumbs.db
-
-# VS Code
-.vscode/
+# Editor directories and files
+.vscode/*
 !.vscode/extensions.json
-
-# IntelliJ / WebStorm
-.idea/
-
-# =========================
-# Docker
-# =========================
-*.pid
-docker-data/
-.pgdata/
-
-# =========================
-# Temporary / Runtime
-# =========================
-tmp/
-temp/
-
-# =========================
-# Database dumps
-# =========================
-*.dump
-*.backup
-
-# =========================
-# Additional Files
-# =========================
-shivraj*
-proton*
-init.sh
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
